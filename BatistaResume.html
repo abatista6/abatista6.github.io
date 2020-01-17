@@ -1,0 +1,96 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<title>
+			This is the resume of Adrianna Batista
+		</title>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- CSS Styling -->
+		<style>
+			body {
+  				padding: 25px;
+  				background-color: white;
+  				color: black;
+  				font-size: 25px;
+  				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			.dark-mode {
+  				background-color: black;
+ 			 	color: white;
+			}
+
+			/* Header Styling */
+			.header {
+ 	 			padding: 80px; /* some padding */
+  				text-align: center; /* center the text */
+  				background: #1abc9c; /* green background */
+  				color: white; /* white text color */
+			}
+
+			/* Increase the font size of the <h1> element */
+			.header h1 {
+  				font-size: 40px;
+			}
+
+			/* Footer Styling */
+			.footer {
+  				padding: 20px; /* Some padding */
+  				text-align: center; /* Center text*/
+  				background: #ddd; /* Grey background */
+			}
+
+		</style>
+	</head>
+	<body>
+		<br>
+		<!-- Header Content -->
+		<div class="header">
+			<h1>
+				<center>
+					Adrianna Batista
+				</center>
+			</h1>
+			<h2>
+				<center>
+				<img src="https://img.icons8.com/ios-filled/20/000000/phone.png"> 772-530-2061
+				</center>
+			</h2>
+			<h3>
+				<center>
+					<img src="https://img.icons8.com/material-sharp/20/000000/important-mail.png"><a href="malito:adrianna.batista12@gmail.com">adrianna.batista12@gmail.com</a>
+				</center>
+			</h3>
+			<h3>
+				<center>
+					<img src="https://img.icons8.com/android/20/000000/linkedin.png"><a href="https://www.linkedin.com/in/adrianna-batista">linkedin.com/in/adrianna-batista</a>
+				</center>
+			</h3>
+			<center>
+				<button onclick="myFunction()">Toggle dark mode</button>
+			</center>
+		</div>
+
+		<p id="work-skills">
+		</p>
+
+		<!-- Footer Class -->
+		<div class="footer">
+ 	 		<h2>Footer</h2>
+		</div>
+
+		<!-- Javascript Code & Functions -->
+		<script>
+			document.getElementById("work-skills").innerHTML = 5 + 6;
+		
+			//function to toggle dark mode of resume
+			function myFunction() {
+   				var element = document.body;
+   				element.classList.toggle("dark-mode");
+			}
+		</script>
+	</body>
+</html>

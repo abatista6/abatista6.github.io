@@ -61,38 +61,26 @@
 		<!-- Footer Class -->
 		<div class="footer">
  	 		<h2>Footer</h2>
- 				<div class="contact">
-					<h3>Get In Touch</h3>
-						<form>
-							<div class="row half collapse-at-2">
-								<div class="">
-									<input type="text" name="name" id="name" placeholder="Name" />
-								</div>
-								<div class="">
-									<input type="email" name="email" id="email" placeholder="Email" />
-								</div>
-							</div>
-							<div class="row half">
-								<div class="">
-									<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-								</div>
-							</div>
-							<div class="row half">
-								<div class="">
-									<ul class="actions">
-										<li><input type="submit" class="button alt" value="Send Message"/></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-				</div>
+ 			<div class="contact">
+				<h3>Get In Touch</h3>
+						<!-- modify this form HTML and place wherever you want your form -->
 
-				<!-- Copyright -->
-				<div class="copyright">
-					<ul class="menu">
-						<li>&copy; 2020 Untitled, Inc. All rights reserved</li>
-					</ul>
+				<form action="https://formspree.io/xgearjrl" method="POST">
+ 		 			<label> Your email: <input type="text" name="_replyto"></label>
+  					<label> Your message: <textarea name="message"></textarea> </label>
+
+  					<!-- your other form fields go here -->
+
+  					<button type="submit">Send</button>
+				</form>
+			</div>
+
+			<!-- Copyright -->
+			<div class="copyright">
+				<div class="menu">
+					&copy; 2020 Untitled, Inc. All rights reserved
 				</div>
 			</div>
+		</div>
 	</body>
 </html>

@@ -48,6 +48,8 @@
      background-color: #ddd;
      color: black;
 }
+
+#timeline{
 /* Timeline Styling */
 /* The actual timeline (the vertical ruler) */
  .timeline::after {
@@ -124,6 +126,7 @@
      background-color: white;
      position: relative;
      border-radius: 6px;
+}
 }
 
 .footer {

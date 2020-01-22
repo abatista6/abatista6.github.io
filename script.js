@@ -9,7 +9,7 @@ function darkFunction() {
 /* function for creating sticky navbar */
 window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
+var navbar = document.getElementsByClassName("navbar");
 var sticky = navbar.offsetTop;
 
 function myFunction() {

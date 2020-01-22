@@ -1,4 +1,4 @@
-document.getElementById("work-skills").innerHTML = 5 + 6;
+/* document.getElementById("work-skills").innerHTML = 5 + 6;*/
 
 /* function to toggle dark mode of resume */
 function darkFunction() {

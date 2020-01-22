@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 	<head>
-		<title>This is the resume of Adrianna Batista</title>
+		<title>Adrianna Batista Resume</title>
 
 		<meta charset="utf-8">
-		<meta name="description" content="Cam Barts Portfolio">
+		<meta name="description" content="This is the online resume of Adrianna Batista">
 		<meta name="author" content="Cam Barts">
 		<meta name = "keywords" content = "HTML, Meta Tags, Metadata" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="Icon" type="image/x-icon" href="https://cam-barts.github.io/KoSlogo_tiny.ico" />
+
+		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo:300">
@@ -17,6 +19,7 @@
 
   		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   		<script type="text/javascript" src="script.js"></script>
+  		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	</head>
 	<body>
 		
@@ -29,17 +32,17 @@
 			</h1>
 			<h2>
 				<center>
-				<img src="https://img.icons8.com/ios-filled/20/000000/phone.png"> 772-530-2061
+				<i class="fa fa-phone-alt"></i>772-530-2061
 				</center>
 			</h2>
 			<h3>
 				<center>
-					<img src="https://img.icons8.com/material-sharp/20/000000/important-mail.png"><a href="malito:adrianna.batista12@gmail.com" target="_top">adrianna.batista12@gmail.com</a>
+					<i class="fa fa-envelope"></i><a href="malito:adrianna.batista12@gmail.com" target="_top">adrianna.batista12@gmail.com</a>
 				</center>
 			</h3>
 			<h3>
 				<center>
-					<img src="https://img.icons8.com/android/20/000000/linkedin.png"><a href="https://www.linkedin.com/in/adrianna-batista">linkedin.com/in/adrianna-batista</a>
+					<i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/adrianna-batista">linkedin.com/in/adrianna-batista</a>
 				</center>
 			</h3>
 			<center>
@@ -52,12 +55,12 @@
 
 		<!-- Navbar Content -->
 		<div class="navbar">
-			<a href="#">Adrianna Batista</a>
+			<a href="#" class="left">Adrianna Batista</a>
   			<a href="#">Home</a>
  		 	<a href="#">Skills</a>
  		 	<a href="#">Education</a>
   			<a href="#">Experience</a>
-  			<a href="#" class="right">Contact</a>
+  			<a href="#contact" class="right">Contact</a>
 		</div>
 
 		<p id="work-skills">
@@ -66,7 +69,7 @@
 
 
 		<!-- Footer Class -->
-		<div class="footer">
+		<div class="footer" id="contact">
  	 		<h2>Contact Me</h2>
  			<div class="contact">
 				<form action="https://formspree.io/xgearjrl" method="POST">

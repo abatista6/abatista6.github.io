@@ -1,0 +1,39 @@
+# Markdown text containing resume data
+
+header:
+  name: Adrianna Valentina Batista
+  email: adrianna.batista12@gmail.com
+  phone: 772-530-2061
+  linkedin: adrianna-batista
+
+navbar:
+
+skills:
+  title: Skills, Languages &amp; Proficiency
+
+  tools:
+    - name: Python
+    level: 80%
+    
+    - name: C++
+    level: 70%
+    
+    - name: Matlab
+    level: 40%
+
+education:
+  - degree: Master of Science, Computer Science
+  concentration: Software Engineering &amp; Database Design
+  school: Fordham University, Manhattan NY
+  date: Fall 2018 - Present (Spring 2020)
+  description: |
+  
+  - degree: Bachelor of Arts, Computer Science
+  minor: New Media &amp; Digital Design and Information Science
+  school: Fordham University, Bronx NY
+  date: Fall 2015 - Spring 2019
+  description: |
+  
+#footer: >
+  #Designed with <i class="fas fa-heart"></i>
+

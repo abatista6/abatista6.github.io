@@ -14,23 +14,23 @@ skills:
   title: "Skills, Languages &amp; Proficiency"
 
   tools:
-    - name: Python
+    name: Python
     level: 80%
     
-    - name: C++
+    name: C++
     level: 70%
     
-    - name: Matlab
+    name: Matlab
     level: 40%
 
 education:
-  - degree: Master of Science, Computer Science
+  degree: Master of Science, Computer Science
   concentration: Software Engineering &amp; Database Design
   school: Fordham University, Manhattan NY
   date: Fall 2018 - Present (Spring 2020)
   description: ~
   
-  - degree: Bachelor of Arts, Computer Science
+  degree: Bachelor of Arts, Computer Science
   minor: New Media &amp; Digital Design and Information Science
   school: Fordham University, Bronx NY
   date: Fall 2015 - Spring 2019

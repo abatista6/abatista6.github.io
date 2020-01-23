@@ -33,11 +33,29 @@
 	</head>
 	<body>
 
+	<!-- Navbar Content -->
+	<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+  		<a href="javascript:void(0)" class="navbar-brand left">Adrianna V. Batista</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNav">
+  			<div class="navbar-nav">
+  				<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#">About</a>
+				<a class="nav-item nav-link" href="#">Skills</a>
+				<a class="nav-item nav-link" href="#">Education</a>
+				<a class="nav-item nav-link" href="#">Experience</a>
+				<a class="nav-item nav-link" href="#contact" class="right">Contact</a>
+			</div>
+  		</div>
+	</nav>
+
 		<!-- Header Content -->
 		<div class="header">
 			<h1>
 				<center>
-					{{header.name|lower}}
+					Adrianna Valentina Batista
 				</center>
 			</h1>
 			<h2>
@@ -63,16 +81,34 @@
 			<button>Download my CV</button>
 		</div>
 
-		<!-- Navbar Content -->
-		{% include navbar.html %}
-
 		<div cklass="content">
 			<p id="work-skills">
 
 			</p>
 		</div>
 
-		{% include footer.html %}
+		<!-- Footer Class -->
+		<div class="footer" id="contact">
+			<div class="contact">
+			<form action="https://formspree.io/xgearjrl" method="POST">
+				<h3>Get In Touch</h3>
+		 			<label> Email: <br> <input type="text" name="_replyto"></label>
+		 			<br>
+		 			<label> Subject: <br> <input type="text" name="subject"></label>
+		 			<br>
+					<label> Message: <br> <textarea name="message"></textarea></label>
+					<br>
+					<button type="submit">Send</button>
+			</form>
+		</div>
+
+		<!-- Copyright -->
+		<div class="copyright">
+			<div class="menu">
+				&copy; 2020 Untitled, Inc. All rights reserved
+			</div>
+		</div>
+		</div>
 
 		<!-- Jquery, Popper.js, and Bootrap.js Scripts -->
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

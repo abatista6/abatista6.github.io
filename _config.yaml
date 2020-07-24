@@ -1,11 +1,14 @@
----
+# Jekyll Configuration
 
-title: "Adrianna Batista'\s Resume"
-name: "Adrianna Batista'\s Resume"
+title: "Adrianna Batista's Resume"
+name: "Adrianna Batista's Resume"
 description: "This is the online resume of Adrianna Batista"
 encoding: "utf-8"
 timezone: America/New_York
+email: adrianna.batista12@gmail.com
+baseurl: ""
+url: ""
+
+github_username: abatista6
 
 markdown: kramdown
-
-...

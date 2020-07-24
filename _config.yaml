@@ -12,3 +12,8 @@ url: ""
 github_username: abatista6
 
 markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

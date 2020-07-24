@@ -1,0 +1,11 @@
+---
+
+title: "Adrianna Batista'\s Resume"
+name: "Adrianna Batista'\s Resume"
+description: "This is the online resume of Adrianna Batista"
+encoding: "utf-8"
+timezone: America/New_York
+
+markdown: kramdown
+
+...
